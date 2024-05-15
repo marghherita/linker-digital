@@ -1,10 +1,6 @@
-"use client";
-
-import Nav from "@/components/Nav";
-import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 
-export default function Home() {
+function Courses() {
   const projects = [
     {
       title: "Stripe",
@@ -43,12 +39,11 @@ export default function Home() {
       link: "https://microsoft.com",
     },
   ];
-
   return (
-    <>
-      <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={projects} />
-      </div>
-    </>
+    <div className="max-w-5xl mx-auto px-8">
+      <HoverEffect items={projects} />
+    </div>
   );
 }
+
+export default Courses;
