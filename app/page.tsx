@@ -4,11 +4,17 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { nanoid } from "nanoid";
 
 export default function Home() {
-  const projects = [
+  const projects: {
+    id?: string;
+    title: string;
+    description?: string;
+    price?: string;
+    time?: string;
+  }[] = [
     {
       id: nanoid(),
       title: "Coaching aziendale 1 to 1 per una crescita strategica",
-      description: (
+      description: `(
         <div className="flex flex-col gap-4 my-4">
           <h4 className="text-md font-bold">
             Sei il titolare di una PMI o di una piccola agenzia di marketing?
@@ -46,40 +52,40 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      ),
-      link: "https://stripe.com",
+      )`,
+
       price: "450",
       time: "60 MIN - 6 sessioni",
     },
     {
       id: nanoid(),
       title: "Configurazione del Business Manager di Meta",
+      description: "Test",
 
-      link: "https://netflix.com",
       price: "90",
       time: "90 MIN",
     },
     {
       id: nanoid(),
       title: "Revisione delle tue campagne ADV",
+      description: "Test",
 
-      link: "https://google.com",
       price: "75",
       time: "60 MIN",
     },
     {
       id: nanoid(),
       title: "Strategia di advertising su misura",
+      description: "Test",
 
-      link: "https://meta.com",
       price: "115",
       time: "90 MIN",
     },
     {
       id: nanoid(),
       title: "Sessione di follow-up",
+      description: "Test",
 
-      link: "https://amazon.com",
       price: "65",
       time: "60 MIN",
     },

@@ -22,12 +22,11 @@ export const HoverEffect = ({
   className,
 }: {
   items: {
-    id: string;
+    id?: string;
     title: string;
-    description?: JSX.Element;
-    link: string;
-    price: string;
-    time: string;
+    description?: string;
+    price?: string;
+    time?: string;
   }[];
   className?: string;
 }) => {
@@ -79,7 +78,7 @@ export const HoverEffect = ({
                 <DialogTitle className="text-xl">
                   {item?.title.toUpperCase()}
                 </DialogTitle>
-                {item.description}
+                {item?.description}
                 <p>Durata: {item?.time}</p>
                 <p>Prezzo: {item?.price}€</p>
 
