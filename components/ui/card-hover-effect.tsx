@@ -24,7 +24,7 @@ export const HoverEffect = ({
   items: {
     id: string;
     title: string;
-    description: JSX.Element;
+    description: JSX.Element | string;
     link: string;
     price: string;
     time: string;
