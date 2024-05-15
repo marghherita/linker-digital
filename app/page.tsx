@@ -54,8 +54,7 @@ export default function Home() {
     {
       id: nanoid(),
       title: "Configurazione del Business Manager di Meta",
-      description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+
       link: "https://netflix.com",
       price: "90",
       time: "90 MIN",
@@ -63,8 +62,7 @@ export default function Home() {
     {
       id: nanoid(),
       title: "Revisione delle tue campagne ADV",
-      description:
-        "A multinational technology company that specializes in Internet-related services and products.",
+
       link: "https://google.com",
       price: "75",
       time: "60 MIN",
@@ -72,8 +70,7 @@ export default function Home() {
     {
       id: nanoid(),
       title: "Strategia di advertising su misura",
-      description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+
       link: "https://meta.com",
       price: "115",
       time: "90 MIN",
@@ -81,8 +78,7 @@ export default function Home() {
     {
       id: nanoid(),
       title: "Sessione di follow-up",
-      description:
-        "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+
       link: "https://amazon.com",
       price: "65",
       time: "60 MIN",
