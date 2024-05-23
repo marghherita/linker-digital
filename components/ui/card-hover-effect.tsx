@@ -64,7 +64,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Dialog>
-            <DialogTrigger className="h-full w-full">
+            <DialogTrigger className="h-full w-full ">
               <Card>
                 <CardTitle className="text-left">{item.title}</CardTitle>
                 <div>
@@ -73,8 +73,8 @@ export const HoverEffect = ({
                 </div>
               </Card>
             </DialogTrigger>
-            <DialogContent className="m-4">
-              <ScrollArea className="h-[600px] sm:h-full w-auto rounded-md ">
+            <DialogContent>
+              <ScrollArea className="h-[600px] sm:h-full w-auto rounded-md">
                 <DialogTitle className="text-xl">
                   {item?.title.toUpperCase()}
                 </DialogTitle>
