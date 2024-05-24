@@ -74,7 +74,7 @@ export const HoverEffect = ({
               </Card>
             </DialogTrigger>
             <DialogContent>
-              <ScrollArea className=" h-[400px] sm:h-[600px] w-auto rounded-md">
+              <ScrollArea className=" max-h-[400px] sm:h-[600px] w-auto rounded-md">
                 <div className="flex flex-col gap-4">
                   <DialogTitle className="text-xl">
                     {item?.title.toUpperCase()}
