@@ -60,7 +60,34 @@ export default function Home() {
     {
       id: nanoid(),
       title: "Configurazione del Business Manager di Meta",
-      description: "Test",
+      description: (
+        <div className="flex flex-col gap-4 my-4">
+          <h4 className="text-md font-bold">
+            Hai provato a configurare il Business Manager di Meta, l'account
+            pubblicitario, le impostazioni di fatturazione, ma è più difficile
+            del previsto?
+          </h4>
+
+          <p>
+            Questo servizio è pensato per te. Una sessione individuale di 90
+            minuti che ti renderà autonomo su questo strumento.
+            <br /> <br />
+            Ecco cosa aspettarti se accedi a questo servizio:
+          </p>
+          <ul className="list-disc px-4 flex flex-col gap-2">
+            <li>
+              Guida Pratica alla Configurazione del tuo Business Manager di
+              Meta.
+            </li>
+            <li>Requisiti e Creazione del Business Manager.</li>
+            <li>Aggiunta di Risorse al Business Manager.</li>
+            <li>
+              Gestione delle Persone, Account Pubblicitari e della Fatturazione.
+            </li>
+            <li>Creazione del Pixel.</li>
+          </ul>
+        </div>
+      ),
 
       price: "90",
       time: "90 MIN",
