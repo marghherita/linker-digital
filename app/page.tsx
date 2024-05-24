@@ -63,9 +63,9 @@ export default function Home() {
       description: (
         <div className="flex flex-col gap-4 my-4">
           <h4 className="text-md font-bold">
-            Hai provato a configurare il Business Manager di Meta, l'account
-            pubblicitario, le impostazioni di fatturazione, ma è più difficile
-            del previsto?
+            Hai provato a configurare il Business Manager di Meta,
+            l&apos;account pubblicitario, le impostazioni di fatturazione, ma è
+            più difficile del previsto?
           </h4>
 
           <p>
