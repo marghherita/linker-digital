@@ -13,13 +13,6 @@ const config = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1280",
-        "2xl": "1400px",
-      },
     },
     extend: {
       colors: {
@@ -74,6 +67,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      screens: {
+        sm: { max: "393px" },
       },
     },
   },
