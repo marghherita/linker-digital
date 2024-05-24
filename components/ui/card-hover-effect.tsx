@@ -24,7 +24,7 @@ export const HoverEffect = ({
   items: {
     id?: string;
     title: string;
-    description?: string;
+    description?: JSX.Element | string;
     price?: string;
     time?: string;
   }[];
@@ -74,17 +74,26 @@ export const HoverEffect = ({
               </Card>
             </DialogTrigger>
             <DialogContent>
-              <ScrollArea className="h-[600px] sm:h-full w-auto rounded-md">
-                <DialogTitle className="text-xl">
-                  {item?.title.toUpperCase()}
-                </DialogTitle>
-                {item?.description}
-                <p>Durata: {item?.time}</p>
-                <p>Prezzo: {item?.price}€</p>
+              <ScrollArea className=" h-[400px] sm:h-[600px] w-auto rounded-md">
+                <div className="flex flex-col gap-4">
+                  <DialogTitle className="text-xl">
+                    {item?.title.toUpperCase()}
+                  </DialogTitle>
+                  {item?.description}
+                  <div>
+                    <p>
+                      Durata: <span className="font-bold">{item?.time}</span>
+                    </p>
+                    <p>
+                      Prezzo: <span className="font-bold">€{item?.price}</span>{" "}
+                      + IVA
+                    </p>
+                  </div>
 
-                <Button variant="default" className="mt-2">
-                  Prenota
-                </Button>
+                  <Button variant="default" className="mt-4">
+                    Prenota
+                  </Button>
+                </div>
               </ScrollArea>
             </DialogContent>
           </Dialog>

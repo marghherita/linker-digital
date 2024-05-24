@@ -7,14 +7,14 @@ export default function Home() {
   const projects: {
     id?: string;
     title: string;
-    description?: string;
+    description?: JSX.Element | string;
     price?: string;
     time?: string;
   }[] = [
     {
       id: nanoid(),
       title: "Coaching aziendale 1 to 1 per una crescita strategica",
-      description: `(
+      description: (
         <div className="flex flex-col gap-4 my-4">
           <h4 className="text-md font-bold">
             Sei il titolare di una PMI o di una piccola agenzia di marketing?
@@ -42,8 +42,8 @@ export default function Home() {
               campagne efficaci.
             </li>
             <li>
-              Approfondimento sull'interpretazione dei dati per migliorare le
-              campagne e ottenere un migliore ritorno sull'investimento.
+              Approfondimento sull&apos;interpretazione dei dati per migliorare
+              le campagne e ottenere un migliore ritorno sull&apos;investimento.
             </li>
             <li>
               Al termine delle 6 sessioni avrai gli strumenti principali per
@@ -52,7 +52,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      )`,
+      ),
 
       price: "450",
       time: "60 MIN - 6 sessioni",
@@ -90,8 +90,6 @@ export default function Home() {
       time: "60 MIN",
     },
   ];
-
-  console.log(projects);
 
   return (
     <>
