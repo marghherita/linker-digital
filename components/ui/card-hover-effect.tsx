@@ -73,7 +73,7 @@ export const HoverEffect = ({
                 </div>
               </Card>
             </DialogTrigger>
-            <DialogContent className="border-4 border-blue-600">
+            <DialogContent className="sm:border-4 sm:border-blue-600">
               <ScrollArea className=" max-h-[400px] sm:max-h-[600px]  w-auto rounded-md border border-red-800">
                 <div className="flex flex-col gap-4">
                   <DialogTitle className="text-xl">
