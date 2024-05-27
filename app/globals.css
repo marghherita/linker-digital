@@ -16,6 +16,10 @@
   }
 }
 
+ul {
+  list-style: disc;
+}
+
 body {
   color: #3d405b;
   background: #f4f1de;

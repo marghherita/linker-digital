@@ -73,8 +73,8 @@ export const HoverEffect = ({
                 </div>
               </Card>
             </DialogTrigger>
-            <DialogContent className="">
-              <ScrollArea className="h-[400px]  w-auto rounded-md ">
+            <DialogContent>
+              <ScrollArea className="h-fit sm:h-[400px]  w-auto rounded-md ">
                 <div className="flex flex-col gap-4">
                   <DialogTitle className="text-xl">
                     {item?.title.toUpperCase()}
@@ -113,7 +113,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-cardBg border border-transparent dark:border-cardHover group-hover:border-cardHover relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-primary border border-transparent dark:border-cardHover group-hover:border-cardHover relative z-20",
         className
       )}
     >

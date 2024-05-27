@@ -16,15 +16,15 @@ const config = {
     },
     extend: {
       colors: {
-        cardBg: "#e07a5f",
+        primary: "#e07a5f",
         cardHover: "#3d405b",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: "#f4f1de",
-        secondary: {
+        secondary: "#f4f1de",
+        notSecondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
