@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Poppins, Reddit_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const inter = Poppins({ subsets: ["latin"], weight: "400" });
+const font = Reddit_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Linker Digital",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         <Nav />
         {children}
         <Footer />
