@@ -90,7 +90,7 @@ export const HoverEffect = ({
             </DialogTrigger>
             <DialogContent>
               {!isOpen && (
-                <ScrollArea className="h-fit sm:h-[500px] w-auto rounded-md ">
+                <ScrollArea className="h-fit sm:h-[500px] md:h-[500px] w-auto rounded-md ">
                   <div className="flex flex-col gap-4">
                     <DialogTitle className="text-xl font-extrabold">
                       {item?.title.toUpperCase()}

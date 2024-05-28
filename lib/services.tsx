@@ -176,39 +176,39 @@ export const Services: Service[] = [
     price: "115",
     time: "90 MIN",
   },
-  {
-    id: nanoid(),
-    title: "Sessione di follow-up",
-    description: (
-      <div className="flex flex-col gap-4 my-4">
-        <h4 className="text-md font-bold">
-          Se hai già fatto una sessione con noi, in questa sessione di follow up
-          di 60 minuti possiamo continuare quanto abbiamo discusso in
-          precedenza. Se dobbiamo discutere un nuovo progetto da 0 prenota la
-          sessione di strategia di 90 minuti.
-        </h4>
+  // {
+  //   id: nanoid(),
+  //   title: "Sessione di follow-up",
+  //   description: (
+  //     <div className="flex flex-col gap-4 my-4">
+  //       <h4 className="text-md font-bold">
+  //         Se hai già fatto una sessione con noi, in questa sessione di follow up
+  //         di 60 minuti possiamo continuare quanto abbiamo discusso in
+  //         precedenza. Se dobbiamo discutere un nuovo progetto da 0 prenota la
+  //         sessione di strategia di 90 minuti.
+  //       </h4>
 
-        <p>
-          Questo servizio è pensato per le realtà che non dispongono di
-          competenze interne avanzate in materia di advertising online e sono
-          disposti a investire in formazione per acquisire le competenze
-          necessarie per internalizzare i servizi.
-          <br /> <br />
-          Ecco cosa aspettarti se accedi a questo servizio:
-        </p>
-        <ul className="list-disc px-4 flex flex-col gap-2">
-          <li>
-            Discussione di ulteriori temi o evoluzioni legati alla sessione
-            precedente.
-          </li>
-          <li>
-            Analisi dei risultati dopo la review delle campagne o
-            l&apos;implementazione di una nuova strategia.
-          </li>
-        </ul>
-      </div>
-    ),
-    price: "65",
-    time: "60 MIN",
-  },
+  //       <p>
+  //         Questo servizio è pensato per le realtà che non dispongono di
+  //         competenze interne avanzate in materia di advertising online e sono
+  //         disposti a investire in formazione per acquisire le competenze
+  //         necessarie per internalizzare i servizi.
+  //         <br /> <br />
+  //         Ecco cosa aspettarti se accedi a questo servizio:
+  //       </p>
+  //       <ul className="list-disc px-4 flex flex-col gap-2">
+  //         <li>
+  //           Discussione di ulteriori temi o evoluzioni legati alla sessione
+  //           precedente.
+  //         </li>
+  //         <li>
+  //           Analisi dei risultati dopo la review delle campagne o
+  //           l&apos;implementazione di una nuova strategia.
+  //         </li>
+  //       </ul>
+  //     </div>
+  //   ),
+  //   price: "65",
+  //   time: "60 MIN",
+  // },
 ];
