@@ -1,7 +1,7 @@
 "use client";
 
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { nanoid } from "nanoid";
+
 import { Services } from "@/lib/services";
 
 export default function Home() {
