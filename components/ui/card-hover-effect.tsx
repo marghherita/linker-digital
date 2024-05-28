@@ -128,11 +128,9 @@ export const HoverEffect = ({
 
               {isOpen && (
                 <InlineWidget
-                  styles={
-                    isMobile && {
-                      height: "500px",
-                    }
-                  }
+                  styles={{
+                    height: "500px",
+                  }}
                   url="https://calendly.com/margherita-grasso/first-meeting"
                 />
               )}
