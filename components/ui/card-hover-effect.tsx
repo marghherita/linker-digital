@@ -130,7 +130,7 @@ export const HoverEffect = ({
                 <InlineWidget
                   styles={
                     isMobile && {
-                      height: "400px",
+                      height: "500px",
                     }
                   }
                   url="https://calendly.com/margherita-grasso/first-meeting"
