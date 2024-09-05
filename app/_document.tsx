@@ -1,6 +1,6 @@
-// pages/_document.js
+// pages/_document.tsx
 
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript, DocumentProps } from 'next/document';
 
 export default function MyDocument() {
     return (
@@ -18,7 +18,7 @@ export default function MyDocument() {
             `,
                     }}
                 />
-                {/* End Clarity Tracking Code */}
+                {/* Fine codice Clarity */}
             </Head>
             <body>
                 <Main />
